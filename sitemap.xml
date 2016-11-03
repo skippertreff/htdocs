@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://skippertreff.co.nf/index.html</loc><priority>1.0</priority></url>
+<url><loc>http://skippertreff.co.nf/club/index.html</loc></url> 
+<url><loc>http://skippertreff.co.nf/club/lageplan.html</loc></url> 
+<url><loc>http://skippertreff.co.nf/club/vorstand.html</loc></url> 
+<url><loc>http://skippertreff.co.nf/club/impressum.html</loc></url> 
+<url><loc>http://skippertreff.co.nf/termine/index.html</loc><priority>1.0</priority><changefreq>monthly</changefreq></url>
+<url><loc>http://skippertreff.co.nf/foto/index.html</loc></url> 
+<url><loc>http://skippertreff.co.nf/foto/club/page1.htm</loc></url> 
+</urlset>

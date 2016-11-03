@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Lageplan - Treffpunkt des SkipperTreff Torrevieja</TITLE>
+<link rel="stylesheet" media="screen" href="../inc/stil.css" type="text/css">
+<link rel="stylesheet" media="print" href="../inc/druck.css" type="text/css">
+<style type="text/css">
+  #map_canvas img { border: none; box-shadow: none; border-radius: 0; max-width:none; }
+  #map_canvas p { margin: 6px 0; }
+  #content { max-width:205px }
+  #bodyContent { font-size:10pt; text-align:left; }
+  
+</style>
+<script type="text/javascript" src="../inc/menu.js"></script>
+<script type="text/javascript"  src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDSBBLsZKUGOr-gMGmWtT--WjHYSU9AWSg&sensor=false"></script>
+<script type="text/javascript">
+function initMap() {
+  var myLatlng = new google.maps.LatLng(37.975,-0.683);
+  var cent = new google.maps.LatLng(37.979,-0.683);
+  var mapOptions = {
+    zoom: 15,
+    center: cent,
+    disableDefaultUI: true,
+    panControl: true,
+    zoomControl: true,
+    mapTypeControl: true,
+    scaleControl: true,
+    streetViewControl: true,
+    overviewMapControl: true,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+ 
+  var wndow = '<div id="content"><div id="siteNotice"></div><h3 id="firstHeading">SkipperTreff Torrevieja</h3><div id="bodyContent">Clubtreffpunkt:<br /><b> Real Club Nautico Torrevieja</b><br />Paseo Vistalegre 0<br />03181 Torrevieja, Alicante<br /><p><a href="http://maps.google.de/maps?li=d&hl=de&t=m&f=d&iwstate1=dir:to&ll=37.975,-0.683&daddr=Real+Club+Nautico+Torrevieja&iwloc=1" target="_blank">Routenplaner</a></div></div>';
+  
+  
+  var infowindow = new google.maps.InfoWindow({ content: wndow });
+  
+  var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title:"SkipperTreff Torrevieja"
+  });
+  infowindow.open(map,marker);
+}
+</script>
+</head><body onload="initMap();">
+ <noscript><div align="center"><B>*** F&uuml;r die volle Funktionalit&auml;t dieser Webseite aktivieren Sie bitte JavaScript in Ihrem Browser ***</B><BR><a href="/index.html">Home</a> - <a href="/club/index.html">Club</a> - <a href="/termine/index.html">Termine</a> - <a href="/foto/index.html">Fotos</a> - <a href="/intern/index.html">Intern</a></div></noscript>
+<h1>Lageplan</h1>
+	<table align="center" width="706">
+		<tr>
+			<td>
+<p>Unser Treffpunkt befindet sich im <a href="http://www.rcnt.com/" class="ext" target="_blank">Real Club Nautico Torrevieja</a>, Marina Bar<br />
+Paseo Vistalegre 0, 03181 Torrevieja, Alicante, Tel. 965 710 108.</p>
+<p>Hier treffen wir uns&nbsp;jeden ersten Donnerstag im Monat um 20 Uhr.</p>
+<div align="center"><div class="box" id="map_canvas" style="width:640px;height:560px;"></div></div>
+
+<p align="center"><a href="images/hafenplan.png"><IMG src="images/hafenplan.jpg" width="640" height="647" border="0"></a></p>
+<p>&nbsp;</p></td></tr>
+	</table>
+  <p>&nbsp;</p>
+
+<script type="text/javascript">new Menu();</script>
+</body></html>

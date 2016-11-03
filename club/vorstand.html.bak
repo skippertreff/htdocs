@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+    <title>Der Vorstand - SkipperTreff Torrevieja</title>
+    <meta content="Olaf Frohn" name="author" />
+    <link href="../favicon.ico" type="image/x-icon" rel="shortcut icon" />
+    <link type="text/css" href="../inc/stil.css" media="screen" rel="stylesheet" />
+    <link type="text/css" href="../inc/druck.css" media="print" rel="stylesheet" />
+    <script src="../inc/menu.js" type="text/javascript"></script>
+    <style type="text/css">
+td { padding: 12px 12px }
+</style> </head>
+  <body> <noscript><div align="center"><b>*** Für
+die volle Funtionalität dieser Webseite aktivieren Sie bitte
+JavaScript in Ihrem Browser ***</b><br /><a href="/index.html">Home</a> - <a href="/club/index.html">Club</a> - <a
+href="/termine/index.html">Termine</a> - <a href="/foto/index.html">Fotos</a> - <a
+href="/intern/index.html">Intern</a></div></noscript>
+    <h1>Der Vorstand</h1>
+    <noscript><br /><b>*** Bitte aktivieren Sie
+JavaScript in Ihrem Browser um die E-Mailadressen lesen zu
+können ***</b><br /></noscript>
+    <div align="center">
+      <table width="706">
+        <tbody>
+          <tr>
+            <td><br />
+            </td>
+            <td>
+              <h3>1. Skipper</h3>
+              Herbert Fuchs<br />
+              Mobile 627256814<br />
+            </td>
+          </tr>
+          <tr>
+            <td><br />
+            </td>
+            <td>
+              <h3>2. Skipper</h3>
+              Uwe Schulz<br />
+              Mobile 678273813</td>
+          </tr>
+          <tr>
+            <td><br />
+            </td>
+            <td>
+              <h3>Organisator/Webmaster</h3>
+              Günter &amp; Mercedes Klessing<br />
+              E-Mail: m.klessing@gmx.de
+              <script type="text/javascript" language="JavaScript">
+<!--
+var c="ClvARpfxWbVeFfSmbBv]fqfIf<gtFocJvFvCFeWgfaVLFttpvwfmWxB^VNVuwdCogcWUfrFJvevSwdSmUsFkVIg`w`vUgrEDGbVEvFFFbRS~VFfsvugwfAFlfttpvWfMWHBnv~VuWdclroVaSn";var s="";for(var i=0;i<c.length;)s+=String.fromCharCode(((c.charCodeAt(i++)&15)<<4)|(c.charCodeAt(i++)&15));document.write(s);
+//-->
+</script> </td>
+          </tr>
+          <tr>
+            <td><br />
+            </td>
+            <td>
+              <h3>Bordkasse</h3>
+              Regine Schulz-Schwarcke </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script type="text/javascript">new Menu();</script>
+  </body>
+</html>
